@@ -14,7 +14,7 @@ public class App {
      * y devuelve en entero, los segundos equivalentes. Si hay un error, devuelve -1. 
      *  Adaptado de edabit
      */
-    public static int Convertir_min_sec (int minutos){
+     public static int Convertir_min_sec (int minutos){
 
             try{
                 int total_segundos = 0;
@@ -34,7 +34,7 @@ public class App {
      * y devuelve un booleano true si son iguales, false si no lo son. Si hay un error, devuelve false también.
      *  Adaptado de edabit
      */
-    public static boolean Validar_iguales (short numero1, short numero2){
+     public static boolean Validar_iguales (short numero1, short numero2){
             try{
                 boolean son_iguales = false;
                 if(numero1 == numero2)
@@ -55,7 +55,7 @@ public class App {
      * Si hay un error, devuelve 0.
      *  Adaptado de edabit
      */
-    public static float Calcular_potencia (short voltaje, byte corriente){
+     public static float Calcular_potencia (short voltaje, byte corriente){
             try{
                 float potencia = 0;
                 potencia = voltaje * corriente;
